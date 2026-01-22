@@ -1,35 +1,42 @@
 <div align="center">
-  <img src="logo.png" alt="sandbox-transformers-js" width="256"/>
+  <img src="logo.png" alt="sandbox-transformers-js" width="512"/>
 
-  # sandbox-transformers-js
-
-  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
-  **A sandbox for experimenting with Transformers.js - running ML models in the browser and Node.js**
+  **🤖 Sandbox for experimenting with Transformers.js ML models in JavaScript**
 
 </div>
 
 ## Overview
 
-This repository is a personal playground for exploring [Transformers.js](https://huggingface.co/docs/transformers.js), the JavaScript/TypeScript library that brings state-of-the-art machine learning models to the browser and Node.js environments.
+A sandbox project for experimenting with Transformers.js - a JavaScript/TypeScript library for running machine learning models in the browser and Node.js.
 
-## What is Transformers.js?
+## Status
 
-Transformers.js enables running pre-trained models directly in JavaScript without requiring a Python backend. It supports:
+This is currently an empty sandbox ready for experimentation with Transformers.js.
 
-- Text classification and sentiment analysis
-- Named entity recognition
-- Question answering
-- Text generation
-- Image classification
-- Object detection
-- Speech recognition
-- And more...
+## Getting Started
 
-## Project Status
+```bash
+# Clone the repository
+git clone https://github.com/tsilva/sandbox-transformers-js.git
+cd sandbox-transformers-js
 
-This project is in early development. Check back for experiments and examples as they are added.
+# Initialize a project
+npm init -y
+npm install @xenova/transformers
+```
+
+## Transformers.js Features
+
+- Run ML models directly in the browser
+- Node.js support for server-side inference
+- Pre-trained models from Hugging Face Hub
+- Support for NLP, vision, and audio tasks
+
+## Resources
+
+- [Transformers.js Documentation](https://huggingface.co/docs/transformers.js)
+- [Hugging Face Hub](https://huggingface.co/models)
 
 ## License
 
-[MIT](LICENSE)
+MIT
