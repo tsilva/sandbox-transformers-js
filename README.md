@@ -1,7 +1,7 @@
 <div align="center">
   <img src="logo.png" alt="sandbox-transformers-js" width="512"/>
 
-  **🤖 Sandbox for experimenting with Transformers.js ML models in JavaScript**
+  **🤖 Sandbox for experimenting with Transformers.js ML models in JavaScript 🧪**
 
 </div>
 
